@@ -9,4 +9,8 @@
 #include "ws/CircularByteBuffer.h"
 #include "ws/WebSocketClientAdapter.h"
 
+#ifndef ARDUINO_ESP8266_RELEASE_2_4_2
+#error "Install ESP8266 Arduino Core v2.4.2"
+#endif
+
 #endif
